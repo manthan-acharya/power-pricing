@@ -1,0 +1,10 @@
+quantity,block_days,point,boot_mean,se,ci_lo,ci_hi,p_le_0,role
+bsde_policy_pct_of_pf,5,88.5181,88.5708,1.9854,84.778,92.5539,0.0,primary
+hour_of_day_pct_of_pf,5,87.4725,87.5451,2.1936,83.3954,91.9872,0.0,primary
+naive_rolling_pct_of_pf,5,37.9154,37.8524,5.1726,27.6283,47.8224,0.0,primary
+naive_static_pct_of_pf,5,1.8184,1.8014,1.465,-0.3117,5.0768,0.0806,primary
+policy_minus_hod_pp,5,1.0456,1.0257,1.7892,-2.5616,4.4725,0.2786,primary
+policy_minus_hod_pp,1,1.0456,1.011,2.3083,-3.5302,5.4762,0.33,block_sensitivity
+policy_minus_hod_pp,3,1.0456,1.0136,2.0158,-3.0663,4.8545,0.3,block_sensitivity
+policy_minus_hod_pp,7,1.0456,1.0245,1.7889,-2.5661,4.5149,0.2779,block_sensitivity
+policy_minus_hod_pp,10,1.0456,1.0358,1.6516,-2.1785,4.3124,0.2679,block_sensitivity

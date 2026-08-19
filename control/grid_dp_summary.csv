@@ -1,0 +1,13 @@
+soc_nodes,21.0
+price_nodes_per_hub,29.0
+nodes_per_hour,512169.0
+solve_seconds_mean,181.396
+solve_seconds_max,322.656
+grid_dp_total,229511.067
+deep_bsde_total,229884.957
+mean_daily_edge,-4.154
+paired_t,-0.061
+ci_lo,-138.992
+ci_hi,128.122
+days_dp_ahead,52.0
+n_days,90.0

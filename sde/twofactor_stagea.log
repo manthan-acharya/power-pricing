@@ -1,0 +1,16 @@
+epoch   0  train nll 3.2986  val nll 2.1580
+epoch  10  train nll -2.5412  val nll -2.4920
+epoch  20  train nll -2.8874  val nll -2.7857
+epoch  30  train nll -3.0698  val nll -2.9634
+epoch  40  train nll -3.1889  val nll -2.9870
+epoch  50  train nll -3.2717  val nll -3.0724
+epoch  60  train nll -3.3122  val nll -3.1326
+epoch  70  train nll -3.3401  val nll -3.1214
+epoch  79  train nll -3.3453  val nll -3.1314
+stage A best val nll -3.1389
+two-factor stage A: val nll -3.1389
+  fitted K_level: median 0.0938/h (implied half-life 7.39h)
+  fitted K_spread C1: median 0.0954/h (implied half-life 7.27h)
+  fitted K_spread C2: median 0.0991/h (implied half-life 6.99h)
+two-factor stage A half-lives [6.71 4.81 4.25]  spread/level ratio 0.67  diffusion level share 0.8743
+incumbent stage A half-lives [6.59 3.59 3.92]  spread/level ratio 0.57  diffusion level share 0.8886

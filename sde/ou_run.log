@@ -1,0 +1,162 @@
+train transitions 9504  val 1415  neural checkpoint stage B
+fitting seasonal OU (Gaussian MLE on transitions)
+  mean total drift [-6.e-05 -5.e-05 -5.e-05] -> [ 0. -0.  0.] per hour
+fitting seasonal OU + compound-Poisson jumps (EM)
+  init: 432 outlier transitions of 9503, w0 0.53
+  EM   0  loglik/obs +1.2939  lam_bar 0.0114
+  EM  20  loglik/obs +2.0110  lam_bar 0.1059
+  EM  40  loglik/obs +2.0125  lam_bar 0.1063
+  EM  60  loglik/obs +2.0126  lam_bar 0.1064
+  EM  80  loglik/obs +2.0126  lam_bar 0.1064
+  EM 100  loglik/obs +2.0126  lam_bar 0.1064
+  EM 120  loglik/obs +2.0126  lam_bar 0.1064
+  EM 140  loglik/obs +2.0126  lam_bar 0.1064
+  EM 160  loglik/obs +2.0126  lam_bar 0.1064
+  EM 180  loglik/obs +2.0126  lam_bar 0.1064
+  EM 200  loglik/obs +2.0126  lam_bar 0.1064
+  EM 220  loglik/obs +2.0126  lam_bar 0.1064
+  EM 240  loglik/obs +2.0126  lam_bar 0.1064
+  EM 249  loglik/obs +2.0126  lam_bar 0.1064
+  mean total drift [-0.00529  0.00193  0.00179] -> [0. 0. 0.] per hour
+fitting level-anchored seasonal OU + jumps (EM)
+  init: 427 outlier transitions of 9503, w0 0.52
+  EM   0  loglik/obs +1.2931  lam_bar 0.0114
+  EM  20  loglik/obs +2.0040  lam_bar 0.1056
+  EM  40  loglik/obs +2.0057  lam_bar 0.1062
+  EM  60  loglik/obs +2.0058  lam_bar 0.1063
+  EM  80  loglik/obs +2.0058  lam_bar 0.1064
+  EM 100  loglik/obs +2.0058  lam_bar 0.1064
+  EM 120  loglik/obs +2.0058  lam_bar 0.1064
+  EM 140  loglik/obs +2.0058  lam_bar 0.1064
+  EM 160  loglik/obs +2.0058  lam_bar 0.1064
+  EM 180  loglik/obs +2.0058  lam_bar 0.1064
+  EM 200  loglik/obs +2.0058  lam_bar 0.1064
+  EM 220  loglik/obs +2.0058  lam_bar 0.1064
+  EM 240  loglik/obs +2.0058  lam_bar 0.1064
+  EM 249  loglik/obs +2.0058  lam_bar 0.1064
+  mean total drift [-0.00267  0.0009   0.00067] -> [0. 0. 0.] per hour
+fitting seasonal OU + jumps + hour-of-day volatility (EM)
+  init: 432 outlier transitions of 9503, w0 0.53
+  EM   0  loglik/obs +1.2939  lam_bar 0.0114  c range 0.17-2.48
+  EM  20  loglik/obs +2.6475  lam_bar 0.1249  c range 0.02-11.49
+  EM  40  loglik/obs +2.6488  lam_bar 0.1260  c range 0.02-11.64
+  EM  60  loglik/obs +2.6494  lam_bar 0.1264  c range 0.02-11.65
+  EM  80  loglik/obs +2.6509  lam_bar 0.1277  c range 0.02-11.67
+  EM 100  loglik/obs +2.6569  lam_bar 0.1294  c range 0.02-11.71
+  EM 120  loglik/obs +2.6644  lam_bar 0.1320  c range 0.02-11.23
+  EM 140  loglik/obs +2.6651  lam_bar 0.1340  c range 0.02-11.10
+  EM 160  loglik/obs +2.6652  lam_bar 0.1343  c range 0.02-11.06
+  EM 180  loglik/obs +2.6652  lam_bar 0.1344  c range 0.02-11.05
+  EM 200  loglik/obs +2.6652  lam_bar 0.1344  c range 0.02-11.04
+  EM 220  loglik/obs +2.6652  lam_bar 0.1344  c range 0.02-11.04
+  EM 240  loglik/obs +2.6652  lam_bar 0.1344  c range 0.02-11.04
+  EM 249  loglik/obs +2.6652  lam_bar 0.1344  c range 0.02-11.04
+  mean total drift [0.04475 0.05026 0.04936] -> [-0. -0. -0.] per hour
+fitting level-anchored seasonal OU + jumps + hour-of-day volatility (EM)
+  init: 427 outlier transitions of 9503, w0 0.52
+  EM   0  loglik/obs +1.2931  lam_bar 0.0114  c range 0.18-2.47
+  EM  20  loglik/obs +2.6309  lam_bar 0.1260  c range 0.02-11.54
+  EM  40  loglik/obs +2.6344  lam_bar 0.1278  c range 0.02-11.63
+  EM  60  loglik/obs +2.6415  lam_bar 0.1297  c range 0.02-11.67
+  EM  80  loglik/obs +2.6478  lam_bar 0.1321  c range 0.02-11.26
+  EM 100  loglik/obs +2.6487  lam_bar 0.1341  c range 0.02-11.13
+  EM 120  loglik/obs +2.6488  lam_bar 0.1342  c range 0.02-11.09
+  EM 140  loglik/obs +2.6488  lam_bar 0.1343  c range 0.02-11.08
+  EM 160  loglik/obs +2.6488  lam_bar 0.1343  c range 0.02-11.07
+  EM 180  loglik/obs +2.6488  lam_bar 0.1343  c range 0.02-11.07
+  EM 200  loglik/obs +2.6488  lam_bar 0.1343  c range 0.02-11.07
+  EM 220  loglik/obs +2.6488  lam_bar 0.1343  c range 0.02-11.07
+  EM 240  loglik/obs +2.6488  lam_bar 0.1343  c range 0.02-11.06
+  EM 249  loglik/obs +2.6488  lam_bar 0.1343  c range 0.02-11.06
+  mean total drift [0.04657 0.05001 0.04914] -> [ 0. -0.  0.] per hour
+OU: val NLL -0.9455  1-step RMSE [4.6  5.28 5.49]  K eigen half-lives [2.92 4.22 7.16]h  hod var scale 1.00-1.00  Lyapunov residual 1.18e-08
+NP15: D 0.322 p_block 0.0005 (nominal 4.8e-122)  b 21/16h  n_eff 193 (acf) 285 (boot)  null D95 0.081
+NP15: deseasonalized D 0.379 p_block 0.0005  b 74/27h  null D95 0.164
+NP15: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.002
+SP15: D 0.298 p_block 0.0005 (nominal 6.1e-104)  b 72/18h  n_eff 114 (acf) 125 (boot)  null D95 0.122
+SP15: deseasonalized D 0.359 p_block 0.0005  b 76/25h  null D95 0.185
+SP15: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.002
+ZP26: D 0.307 p_block 0.0005 (nominal 4.2e-111)  b 71/19h  n_eff 130 (acf) 115 (boot)  null D95 0.127
+ZP26: deseasonalized D 0.384 p_block 0.0005  b 76/24h  null D95 0.179
+ZP26: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.002
+marginal-distribution criterion, block-bootstrap KS: FAIL
+  NP15: mean 25.8/33.7  std 14.4/15.2  neg% 5.9/1.4  spikes/1000h 5.2/0.0  halflife 8.7/6.7h  ksD 0.375
+  SP15: mean 20.3/27.9  std 15.5/20.3  neg% 17.6/9.7  spikes/1000h 11.9/1.9  halflife 8.2/5.3h  ksD 0.339
+  ZP26: mean 20.9/28.7  std 15.5/20.2  neg% 18.1/9.0  spikes/1000h 15.7/2.2  halflife 5.3/4.7h  ksD 0.339
+  8/15 checks passed   free-run 59d means [33.4 27.6 28.6] vs real [25.8 20.3 21.1]
+OU+jumps: val NLL -2.2284  1-step RMSE [4.62 5.43 5.61]  K eigen half-lives [ 6.98  8.23 10.59]h  hod var scale 1.00-1.00  Lyapunov residual 8.70e-10
+NP15: D 0.270 p_block 0.0005 (nominal 2.7e-85)  b 21/29h  n_eff 193 (acf) 273 (boot)  null D95 0.082
+NP15: deseasonalized D 0.312 p_block 0.0005  b 74/30h  null D95 0.158
+NP15: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.002
+SP15: D 0.244 p_block 0.0005 (nominal 7.4e-70)  b 72/28h  n_eff 114 (acf) 120 (boot)  null D95 0.124
+SP15: deseasonalized D 0.337 p_block 0.0005  b 76/30h  null D95 0.175
+SP15: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.004
+ZP26: D 0.224 p_block 0.0005 (nominal 2.2e-58)  b 71/27h  n_eff 130 (acf) 124 (boot)  null D95 0.122
+ZP26: deseasonalized D 0.342 p_block 0.0005  b 76/30h  null D95 0.166
+ZP26: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.004
+marginal-distribution criterion, block-bootstrap KS: FAIL
+  NP15: mean 25.8/31.8  std 14.4/16.3  neg% 5.9/2.6  spikes/1000h 5.2/0.8  halflife 8.7/18.6h  ksD 0.232
+  SP15: mean 20.3/27.2  std 15.5/19.2  neg% 17.6/7.6  spikes/1000h 11.9/5.3  halflife 8.2/16.3h  ksD 0.246
+  ZP26: mean 20.9/27.6  std 15.5/17.1  neg% 18.1/5.4  spikes/1000h 15.7/5.3  halflife 5.3/10.6h  ksD 0.232
+  7/15 checks passed   free-run 59d means [31.4 26.5 26.9] vs real [25.8 20.3 21.1]
+OU+jumps+EMA: val NLL -2.2176  1-step RMSE [4.6  5.41 5.62]  K eigen half-lives [ 8.61  8.61 10.84]h  hod var scale 1.00-1.00  Lyapunov residual 1.30e-09
+NP15: D 0.164 p_block 0.0005 (nominal 1.6e-31)  b 21/27h  n_eff 193 (acf) 275 (boot)  null D95 0.082
+NP15: deseasonalized D 0.172 p_block 0.0320  b 74/29h  null D95 0.155
+NP15: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.030
+SP15: D 0.223 p_block 0.0005 (nominal 6.2e-58)  b 72/27h  n_eff 114 (acf) 117 (boot)  null D95 0.126
+SP15: deseasonalized D 0.276 p_block 0.0020  b 76/29h  null D95 0.178
+SP15: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.004
+ZP26: D 0.178 p_block 0.0070 (nominal 4.4e-37)  b 71/23h  n_eff 130 (acf) 123 (boot)  null D95 0.123
+ZP26: deseasonalized D 0.244 p_block 0.0030  b 76/29h  null D95 0.172
+ZP26: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.014
+marginal-distribution criterion, block-bootstrap KS: FAIL
+  NP15: mean 25.8/24.8  std 14.4/17.8  neg% 5.9/8.1  spikes/1000h 5.2/0.9  halflife 8.7/11.4h  ksD 0.292
+  SP15: mean 20.3/24.0  std 15.5/22.3  neg% 17.6/14.0  spikes/1000h 11.9/6.0  halflife 8.2/14.6h  ksD 0.335
+  ZP26: mean 20.9/23.2  std 15.5/19.5  neg% 18.1/11.7  spikes/1000h 15.7/5.7  halflife 5.3/8.8h  ksD 0.354
+  12/15 checks passed   free-run 59d means [26.8 32.5 28.1] vs real [25.8 20.3 21.1]
+OU+jumps+seasonal vol: val NLL -2.9417  1-step RMSE [5.12 6.34 6.51]  K eigen half-lives [ 8.53 14.56 23.99]h  hod var scale 0.02-11.04  Lyapunov residual 7.72e-10
+NP15: D 0.468 p_block 0.0005 (nominal 1.4e-264)  b 21/32h  n_eff 193 (acf) 257 (boot)  null D95 0.085
+NP15: deseasonalized D 0.464 p_block 0.0005  b 74/32h  null D95 0.161
+NP15: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.002
+SP15: D 0.431 p_block 0.0005 (nominal 1.7e-222)  b 72/32h  n_eff 114 (acf) 118 (boot)  null D95 0.125
+SP15: deseasonalized D 0.478 p_block 0.0005  b 76/32h  null D95 0.188
+SP15: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.002
+ZP26: D 0.426 p_block 0.0005 (nominal 3.4e-217)  b 71/31h  n_eff 130 (acf) 116 (boot)  null D95 0.126
+ZP26: deseasonalized D 0.472 p_block 0.0005  b 76/32h  null D95 0.174
+ZP26: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.002
+marginal-distribution criterion, block-bootstrap KS: FAIL
+  NP15: mean 25.8/41.1  std 14.4/31.1  neg% 5.9/9.2  spikes/1000h 5.2/12.7  halflife 8.7/22.2h  ksD 0.457
+  SP15: mean 20.3/36.2  std 15.5/32.5  neg% 17.6/13.1  spikes/1000h 11.9/16.6  halflife 8.2/21.2h  ksD 0.469
+  ZP26: mean 20.9/36.1  std 15.5/31.0  neg% 18.1/12.0  spikes/1000h 15.7/16.8  halflife 5.3/18.8h  ksD 0.455
+  5/15 checks passed   free-run 59d means [41.7 36.7 36.5] vs real [25.8 20.3 21.1]
+OU+jumps+EMA+seasonal vol: val NLL -2.9089  1-step RMSE [5.11 6.35 6.54]  K eigen half-lives [12.78 25.46 25.46]h  hod var scale 0.02-11.06  Lyapunov residual 1.05e-09
+NP15: D 0.466 p_block 0.0005 (nominal 2.7e-262)  b 21/31h  n_eff 193 (acf) 281 (boot)  null D95 0.081
+NP15: deseasonalized D 0.457 p_block 0.0005  b 74/31h  null D95 0.160
+NP15: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.002
+SP15: D 0.484 p_block 0.0005 (nominal 3.7e-285)  b 72/31h  n_eff 114 (acf) 119 (boot)  null D95 0.125
+SP15: deseasonalized D 0.514 p_block 0.0005  b 76/32h  null D95 0.186
+SP15: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.002
+ZP26: D 0.469 p_block 0.0005 (nominal 1.2e-266)  b 71/31h  n_eff 130 (acf) 116 (boot)  null D95 0.126
+ZP26: deseasonalized D 0.499 p_block 0.0005  b 76/31h  null D95 0.170
+ZP26: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.002
+marginal-distribution criterion, block-bootstrap KS: FAIL
+  NP15: mean 25.8/41.3  std 14.4/32.0  neg% 5.9/9.6  spikes/1000h 5.2/12.0  halflife 8.7/18.7h  ksD 0.417
+  SP15: mean 20.3/41.2  std 15.5/38.7  neg% 17.6/13.7  spikes/1000h 11.9/16.7  halflife 8.2/21.7h  ksD 0.561
+  ZP26: mean 20.9/39.8  std 15.5/36.0  neg% 18.1/12.6  spikes/1000h 15.7/16.1  halflife 5.3/16.9h  ksD 0.522
+  5/15 checks passed   free-run 59d means [67.1 72.5 65.9] vs real [25.8 20.3 21.1]
+neural SDE: val NLL -2.8772  1-step RMSE [4.26 4.03 4.38]
+NP15: D 0.217 p_block 0.0005 (nominal 6.6e-55)  b 21/16h  n_eff 193 (acf) 289 (boot)  null D95 0.080
+NP15: deseasonalized D 0.222 p_block 0.0050  b 74/21h  null D95 0.161
+NP15: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.002
+SP15: D 0.230 p_block 0.0005 (nominal 5.3e-62)  b 72/19h  n_eff 114 (acf) 122 (boot)  null D95 0.123
+SP15: deseasonalized D 0.282 p_block 0.0015  b 76/20h  null D95 0.177
+SP15: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.004
+ZP26: D 0.227 p_block 0.0005 (nominal 6.4e-60)  b 71/19h  n_eff 130 (acf) 121 (boot)  null D95 0.124
+ZP26: deseasonalized D 0.285 p_block 0.0005  b 76/19h  null D95 0.165
+ZP26: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.002
+marginal-distribution criterion, block-bootstrap KS: FAIL
+  NP15: mean 25.8/29.4  std 14.4/15.2  neg% 5.9/4.6  spikes/1000h 5.2/5.0  halflife 8.7/5.1h  ksD 0.281
+  SP15: mean 20.3/25.7  std 15.5/18.3  neg% 17.6/10.6  spikes/1000h 11.9/17.1  halflife 8.2/4.8h  ksD 0.272
+  ZP26: mean 20.9/25.8  std 15.5/18.6  neg% 18.1/11.2  spikes/1000h 15.7/17.6  halflife 5.3/4.4h  ksD 0.287
+  15/15 checks passed   free-run 59d means [41.  39.6 39.4] vs real [25.8 20.3 21.1]
+wrote /Users/manthan/Documents/power-pricing-model/sde/ou_comparison.csv

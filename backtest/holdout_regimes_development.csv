@@ -1,0 +1,17 @@
+quarter,strategy,slice,value,n_days,edge_vs_best_simple_pp
+development,deep_bsde,month,Apr,30,-10.93
+development,deep_bsde,month,May,31,-7.623
+development,deep_bsde,month,Jun,30,-10.295
+development,deep_bsde,range_tercile,high,31,-7.722
+development,deep_bsde,range_tercile,mid,30,-14.304
+development,deep_bsde,range_tercile,low,30,-6.314
+development,deep_bsde,negative_prices,negative-price day,80,-8.598
+development,deep_bsde,negative_prices,no negative price,11,-17.943
+development,grid_dp,month,Apr,30,-0.664
+development,grid_dp,month,May,31,-2.165
+development,grid_dp,month,Jun,30,-3.112
+development,grid_dp,range_tercile,high,31,-0.824
+development,grid_dp,range_tercile,mid,30,-6.169
+development,grid_dp,range_tercile,low,30,2.052
+development,grid_dp,negative_prices,negative-price day,80,-0.509
+development,grid_dp,negative_prices,no negative price,11,-14.426

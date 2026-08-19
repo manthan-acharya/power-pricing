@@ -1,0 +1,15 @@
+test window: 2026-04-01 07:00:00+00:00 .. 2026-06-30 06:00:00+00:00  (2160h)
+hour-of-day heuristic: charge [10, 11, 12, 13, 14], discharge [18, 19, 20, 21]
+Apr    policy     81293  naive_s       -42  naive_r     45795  hod     77823  PF     89397  %PF  90.9
+May    policy     81628  naive_s      3550  naive_r     29959  hod     80589  PF     93482  %PF  87.3
+Jun    policy     66964  naive_s      1214  naive_r     22714  hod     68757  PF     76825  %PF  87.2
+total  policy    229885  naive_s      4722  naive_r     98468  hod    227170  PF    259704  %PF  88.5
+policy vs hour-of-day: daily edge $30 (sd $636), paired t 0.45, 95% CI [$-99, $162], won 51/90 days
+throughput: policy 18131 MWh, hour-of-day 17983 MWh; policy discharge 83.7% in 00-07h, 13.6% in 18-22h; mean end-of-day SOC 86.6 MWh
+bsde_policy_pct_of_pf       88.52  95% CI [ 84.78,  92.55]  se 1.99
+hour_of_day_pct_of_pf       87.47  95% CI [ 83.40,  91.99]  se 2.19
+naive_rolling_pct_of_pf     37.92  95% CI [ 27.63,  47.82]  se 5.17
+naive_static_pct_of_pf       1.82  95% CI [ -0.31,   5.08]  se 1.47
+policy_minus_hod_pp          1.05  95% CI [ -2.56,   4.47]  se 1.79
+  block-length sensitivity on the gap: L=1 [-3.5,5.5]  L=3 [-3.1,4.9]  L=7 [-2.6,4.5]  L=10 [-2.2,4.3]
+simulated 28d paths: mean rev 89031  std 6872  sharpe-like 12.96  median maxDD 2358

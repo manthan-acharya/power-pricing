@@ -1,0 +1,41 @@
+
+=== incumbent (per-hub) (stage B)  held-out val NLL -2.8772 ===
+NP15: D 0.221 p_block 0.0005 (nominal 5.3e-57)  b 21/13h  n_eff 193 (acf) 279 (boot)  null D95 0.081
+NP15: deseasonalized D 0.225 p_block 0.0040  b 74/22h  null D95 0.158
+NP15: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.002
+SP15: D 0.230 p_block 0.0005 (nominal 6.9e-62)  b 72/18h  n_eff 114 (acf) 121 (boot)  null D95 0.124
+SP15: deseasonalized D 0.286 p_block 0.0015  b 76/22h  null D95 0.179
+SP15: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.004
+ZP26: D 0.225 p_block 0.0005 (nominal 7.3e-59)  b 71/18h  n_eff 130 (acf) 131 (boot)  null D95 0.119
+ZP26: deseasonalized D 0.281 p_block 0.0015  b 76/21h  null D95 0.161
+ZP26: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.002
+marginal-distribution criterion, block-bootstrap KS: FAIL
+  NP15: mean 25.8/29.4  std 14.4/15.3  neg% 5.9/4.6  spikes/1000h 5.2/5.1  halflife 8.7/5.0h
+  SP15: mean 20.3/25.7  std 15.5/18.4  neg% 17.6/10.5  spikes/1000h 11.9/17.2  halflife 8.2/4.9h
+  ZP26: mean 20.9/25.7  std 15.5/18.7  neg% 18.1/11.3  spikes/1000h 15.7/17.6  halflife 5.3/4.8h
+  checks 15/15   KS D [np.float64(0.221), np.float64(0.23), np.float64(0.225)]  p [np.float64(0.0005), np.float64(0.0005), np.float64(0.0005)]
+  deseasonalized half-lives (h) [level, NP-SP, NP-ZP] [4.14 3.17 3.45]   spread/level ratio 0.80
+  free-run 59d means [40.5 39.1 38.8] vs real [25.8 20.3 21.1]
+
+=== two-factor (stage B)  held-out val NLL -2.8921 ===
+NP15: D 0.197 p_block 0.0005 (nominal 3.7e-45)  b 21/13h  n_eff 193 (acf) 283 (boot)  null D95 0.081
+NP15: deseasonalized D 0.197 p_block 0.0170  b 74/22h  null D95 0.158
+NP15: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.006
+SP15: D 0.201 p_block 0.0020 (nominal 2.4e-47)  b 72/15h  n_eff 114 (acf) 119 (boot)  null D95 0.125
+SP15: deseasonalized D 0.240 p_block 0.0080  b 76/22h  null D95 0.179
+SP15: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.004
+ZP26: D 0.193 p_block 0.0005 (nominal 1.6e-43)  b 71/16h  n_eff 130 (acf) 132 (boot)  null D95 0.118
+ZP26: deseasonalized D 0.239 p_block 0.0070  b 76/22h  null D95 0.167
+ZP26: p_block over fixed block lengths b=6:0.002 b=12:0.002 b=24:0.002 b=48:0.002 b=96:0.006
+marginal-distribution criterion, block-bootstrap KS: FAIL
+  NP15: mean 25.8/28.2  std 14.4/16.2  neg% 5.9/5.6  spikes/1000h 5.2/11.6  halflife 8.7/4.4h
+  SP15: mean 20.3/23.7  std 15.5/20.0  neg% 17.6/13.2  spikes/1000h 11.9/23.7  halflife 8.2/4.6h
+  ZP26: mean 20.9/23.8  std 15.5/19.9  neg% 18.1/13.4  spikes/1000h 15.7/22.5  halflife 5.3/4.6h
+  checks 14/15   KS D [np.float64(0.197), np.float64(0.201), np.float64(0.193)]  p [np.float64(0.0005), np.float64(0.002), np.float64(0.0005)]
+  deseasonalized half-lives (h) [level, NP-SP, NP-ZP] [4.39 4.2  3.91]   spread/level ratio 0.92
+  free-run 59d means [35.8 32.7 32.7] vs real [25.8 20.3 21.1]
+realized hourly increments carry 0.9064 of their variance in the level direction
+
+reference half-lives: observed [13.04  5.17  4.83] ratio 0.38; CAISO components [14.72  4.76  4.56] ratio 0.32
+wrote /Users/manthan/Documents/power-pricing-model/sde/twofactor_comparison.csv
+wrote /Users/manthan/Documents/power-pricing-model/writeup/figures/twofactor_variant.pdf

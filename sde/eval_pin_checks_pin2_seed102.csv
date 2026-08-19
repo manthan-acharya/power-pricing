@@ -1,0 +1,4 @@
+node,real_mean,sim_mean,real_std,sim_std,mean_offset_sd,std_ratio,neg_ratio,spike_ratio,real_halflife_h,sim_halflife_h,halflife_ratio,ks_D_median,a_mean,a_std,a_neg,b_spike,c_halflife
+NP15,25.7557,27.9052,14.379,19.8034,0.1495,1.3772,1.3808,2.2714,8.7212,7.9424,0.9107,0.4062,True,True,True,False,True
+SP15,20.2954,21.1739,15.4549,19.5223,0.0568,1.2632,0.7564,1.6175,8.2207,6.0279,0.7333,0.4182,True,True,True,True,True
+ZP26,20.9107,22.5504,15.4808,19.9661,0.1059,1.2897,0.7039,1.1238,5.2504,6.8602,1.3066,0.436,True,True,True,True,True

@@ -1,0 +1,3 @@
+strategy,holdout_ci_excludes_zero,positive_in_2_of_3_months,same_sign_on_development,works
+deep_bsde,False,False,True,False
+grid_dp,False,False,True,False

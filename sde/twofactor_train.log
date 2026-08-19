@@ -1,0 +1,33 @@
+train 9504h  val 1415h  parameters 12999
+epoch   0  train nll 3.2986  val nll 2.1580
+epoch  10  train nll -2.5412  val nll -2.4920
+epoch  20  train nll -2.8874  val nll -2.7857
+epoch  30  train nll -3.0698  val nll -2.9634
+epoch  40  train nll -3.1889  val nll -2.9870
+epoch  50  train nll -3.2717  val nll -3.0724
+epoch  60  train nll -3.3122  val nll -3.1326
+epoch  70  train nll -3.3401  val nll -3.1214
+epoch  79  train nll -3.3453  val nll -3.1314
+stage A best val nll -3.1389
+iter   0  smm 3.2277  nll -3.3435  val nll -3.1348
+iter  20  smm 1.0575  nll -3.2787  val nll -3.0375
+iter  40  smm 0.6352  nll -3.0182  val nll -2.9151
+iter  60  smm 1.1070  nll -2.9401  val nll -2.8952
+iter  80  smm 0.4062  nll -3.2460  val nll -2.8767
+iter 100  smm 0.2528  nll -3.1621  val nll -2.8520
+iter 120  smm 0.2298  nll -3.1074  val nll -2.8721
+iter 140  smm 0.2473  nll -3.2825  val nll -2.8990
+iter 160  smm 0.4176  nll -3.2476  val nll -2.8972
+iter 180  smm 0.2790  nll -3.0883  val nll -2.8929
+iter 200  smm 0.4593  nll -3.0757  val nll -2.8935
+iter 220  smm 0.2485  nll -3.3050  val nll -2.8925
+iter 240  smm 0.1751  nll -3.0682  val nll -2.9035
+iter 260  smm 0.2968  nll -2.9602  val nll -2.9258
+iter 280  smm 0.4658  nll -3.1220  val nll -2.9098
+iter 299  smm 0.1354  nll -3.1869  val nll -2.8921
+stage B kept checkpoint with smm 0.1354 within NLL budget
+stage B best smm overall 0.1354 at val nll -2.8921
+final val nll -2.8921 (stage B)
+  fitted K_level: median 0.1191/h (implied half-life 5.82h)
+  fitted K_spread C1: median 0.1023/h (implied half-life 6.77h)
+  fitted K_spread C2: median 0.1046/h (implied half-life 6.63h)

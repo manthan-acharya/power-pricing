@@ -1,0 +1,11 @@
+quarter,strategy,revenue,pct_of_pf
+development,deep_bsde,219192.33,82.65
+development,grid_dp,239385.15,90.27
+development,fixed_schedule,229589.16,86.57
+development,mpc_yesterday,225375.15,84.98
+development,mpc_weekly,225560.8,85.05
+development,day_ahead_yesterday,244564.42,92.22
+development,day_ahead_weekly,244014.41,92.01
+development,bsde_fixed_salvage,232145.44,87.54
+development,pf_daily,250808.25,94.57
+development,pf,265197.68,100.0

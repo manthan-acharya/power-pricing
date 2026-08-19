@@ -1,0 +1,31 @@
+train 9504h  val 1415h
+NP15-SP15 spread vs congestion diff corr: 0.9903
+epoch   0  train nll 3.4166  val nll 2.3513
+epoch  10  train nll -2.0066  val nll -2.2391
+epoch  20  train nll -2.8855  val nll -2.7004
+epoch  30  train nll -3.0954  val nll -2.8886
+epoch  40  train nll -3.2249  val nll -3.1144
+epoch  50  train nll -3.3035  val nll -3.1447
+epoch  60  train nll -3.3518  val nll -3.1880
+epoch  70  train nll -3.3775  val nll -3.1843
+epoch  79  train nll -3.3818  val nll -3.1865
+stage A best val nll -3.1889
+iter   0  smm 1.4846  nll -3.4051  val nll -3.1805
+iter  20  smm 0.5794  nll -3.4032  val nll -3.0566
+iter  40  smm 0.4501  nll -3.1277  val nll -2.9384
+iter  60  smm 0.3279  nll -3.0137  val nll -2.8897
+iter  80  smm 0.2121  nll -3.3872  val nll -2.8736
+iter 100  smm 0.2679  nll -3.3442  val nll -2.8887
+iter 120  smm 0.2062  nll -3.2419  val nll -2.8847
+iter 140  smm 0.1909  nll -3.4963  val nll -2.8543
+iter 160  smm 0.6037  nll -3.3416  val nll -2.8470
+iter 180  smm 0.1261  nll -3.1943  val nll -2.8939
+iter 200  smm 0.2536  nll -3.1521  val nll -2.8785
+iter 220  smm 0.1770  nll -3.3804  val nll -2.8885
+iter 240  smm 0.0974  nll -3.1204  val nll -2.9002
+iter 260  smm 0.3086  nll -3.0580  val nll -2.9038
+iter 280  smm 0.2995  nll -3.2580  val nll -2.8891
+iter 299  smm 0.0832  nll -3.2808  val nll -2.8772
+stage B kept checkpoint with smm 0.0832 within NLL budget
+stage B best smm overall 0.0832 at val nll -2.8772
+final val nll -2.8772 (stage B)

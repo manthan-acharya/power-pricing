@@ -1,0 +1,41 @@
+hourly increment variance (trace) 156.4 ($/MWh)^2 over 13102 steps
+  energy*1 0.832  congestion 0.135  loss 0.025
+  variance along level direction 0.896; PC1 of the increment correlation explains 0.906 at cosine 0.9996 to (1,1,1)/sqrt(3)
+  in the spread plane: congestion explains 0.9799 of innovation variance, losses contribute 0.0201
+    train n= 9503  congestion R^2 0.9781
+    val   n= 1415  congestion R^2 0.9868
+    test  n= 2184  congestion R^2 0.9890
+
+case14 reference field: lines [0, 2, 6] limited, 0.48 constraints binding on average, 0.64 of draws uncongested, 0.003 dropped as infeasible
+congestion covariance participation ratio: CAISO 1.544, case14 1.086 (3.0 = isotropic)
+  CAISO congestion PC1 0.788 of variance, loading [-0.572  0.573  0.587]
+  angular dispersion, low to high |C| decile (deg)
+    CAISO          [48.6 50.7 48.9 48.9 53.4 53.8 43.3 34.6 31.6 25.7]
+    gaussian null  [58.  54.9 51.6 48.  43.6 38.7 33.1 27.  21.  14.6] +/- [0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.6 0.4 0.3]
+    case14 DC-OPF  [14.2  0.   9.9  4.5  0.   0.   0.   2.2  0.   4.9]   median 1.1
+  magnitude dependence (first minus last decile): CAISO 22.9 deg vs null 43.4 +/- 0.6, outside all 200 null draws True
+    restricted to |C|>1 (n=9758): 25.3 deg vs null 43.5
+    restricted to |C|>5 (n=4710): 22.0 deg vs null 43.3
+
+fitted diffusion correlation: level-direction share 0.9128, PC1 0.9133 at cosine 0.9997 to (1,1,1)/sqrt(3)
+  fitted up-jump direction [0.644 0.548 0.533], cosine 0.9963 to the level direction
+  fitted down-jump direction [-0.504 -0.616 -0.606], cosine 0.9962 to the level direction
+  d(drift)/d(NP15-SP15) = -0.1932/h on average, restoring at 1.000 of sampled states
+  d(drift)/d(NP15-ZP26) = -0.1499/h on average, restoring at 0.951 of sampled states
+  d(drift)/d(level) = -0.1487/h on average, restoring at 0.976 of sampled states
+  deseasonalized half-lives (h)  [level, NP-SP, NP-ZP]
+    observed prices    [13.04  5.17  4.83]
+    CAISO components   [14.72  4.76  4.56]   (energy, congestion diffs)
+    fitted SDE         [4.06 3.08 3.2 ]
+    spread/level ratio: observed 0.38, components 0.32, SDE 0.77
+
+Price model's marginal criterion, projected onto level and spread coordinates:
+  level      sim/real std 1.178, largest CDF gap at +38.0 $/MWh (sim below real)
+  level      KS D 0.2184  p_block 0.0005  blocks 73/17 h  null D95 0.1230
+  NP15-SP15  sim/real std 1.002, largest CDF gap at +0.2 $/MWh (sim above real)
+  NP15-SP15  KS D 0.2371  p_block 0.0005  blocks 64/15 h  null D95 0.1041
+  NP15-ZP26  sim/real std 0.901, largest CDF gap at -0.5 $/MWh (sim above real)
+  NP15-ZP26  KS D 0.2316  p_block 0.0005  blocks 66/16 h  null D95 0.0929
+
+saved /Users/manthan/Documents/power-pricing-model/writeup/figures/congestion_link.pdf
+saved /Users/manthan/Documents/power-pricing-model/grid/congestion_link_results.csv

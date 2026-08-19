@@ -1,0 +1,5 @@
+policy_throughput_mwh,18130.876
+hour_of_day_throughput_mwh,17983.48
+policy_discharge_share_00_07,0.837
+policy_discharge_share_18_22,0.136
+policy_mean_end_of_day_soc,86.604

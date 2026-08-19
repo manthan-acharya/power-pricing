@@ -1,0 +1,55 @@
+reduced-problem day instance: 2025-07-04 07:00:00+00:00 (median regime level)
+[t0= 0] iter     0  terminal loss 299.17911
+[t0= 0] iter  1000  terminal loss 0.11240
+[t0= 0] iter  2000  terminal loss 0.07183
+[t0= 0] iter  3000  terminal loss 0.03449
+[t0= 0] iter  4000  terminal loss 0.01926
+[t0= 0] iter  5000  terminal loss 0.01563
+[t0= 0] iter  6000  terminal loss 0.00716
+[t0= 0] iter  7000  terminal loss 0.00651
+[t0= 0] iter  7999  terminal loss 0.00604
+[t0= 6] iter     0  terminal loss 162.20560
+[t0= 6] iter  1000  terminal loss 0.07075
+[t0= 6] iter  2000  terminal loss 0.04420
+[t0= 6] iter  3000  terminal loss 0.02938
+[t0= 6] iter  4000  terminal loss 0.01558
+[t0= 6] iter  5000  terminal loss 0.00768
+[t0= 6] iter  6000  terminal loss 0.00542
+[t0= 6] iter  7000  terminal loss 0.00395
+[t0= 6] iter  7999  terminal loss 0.00473
+[t0=12] iter     0  terminal loss 217.72827
+[t0=12] iter  1000  terminal loss 0.05868
+[t0=12] iter  2000  terminal loss 0.03971
+[t0=12] iter  3000  terminal loss 0.02515
+[t0=12] iter  4000  terminal loss 0.01306
+[t0=12] iter  5000  terminal loss 0.01149
+[t0=12] iter  6000  terminal loss 0.00560
+[t0=12] iter  7000  terminal loss 0.00509
+[t0=12] iter  7999  terminal loss 0.00418
+[t0=18] iter     0  terminal loss 64.52895
+[t0=18] iter  1000  terminal loss 0.01326
+[t0=18] iter  2000  terminal loss 0.00921
+[t0=18] iter  3000  terminal loss 0.00642
+[t0=18] iter  4000  terminal loss 0.00314
+[t0=18] iter  5000  terminal loss 0.00261
+[t0=18] iter  6000  terminal loss 0.00153
+[t0=18] iter  7000  terminal loss 0.00143
+[t0=18] iter  7999  terminal loss 0.00124
+
+DP grid 21x41: worst |V_bsde - V_dp| rel err 0.256 (median 0.044)
+moment-matching cost (DP mm vs DP jump): median 0.001, max 0.020
+tolerance 0.15 breached; refining DP grid to 41x81
+DP grid 41x81: worst rel err 0.264 (median 0.045)
+gap did NOT shrink under refinement
+final worst rel err 0.264 vs tolerance 0.15
+[eps=2] iter     0  terminal loss 316.10522
+[eps=2] iter  2000  terminal loss 0.02171
+[eps=2] iter  4000  terminal loss 0.01676
+[eps=2] iter  5999  terminal loss 0.01162
+[eps=4] iter     0  terminal loss 309.84119
+[eps=4] iter  2000  terminal loss 0.04484
+[eps=4] iter  4000  terminal loss 0.03130
+[eps=4] iter  5999  terminal loss 0.02137
+eps=2: mean |V - V_ref| 1.7348 k$, mean |V - V_dp| 1.4407 k$
+eps=4: mean |V - V_ref| 0.9365 k$, mean |V - V_dp| 0.6424 k$
+dp cross-check FAILED

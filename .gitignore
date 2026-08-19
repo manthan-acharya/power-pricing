@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+writeup/*.aux
+writeup/*.log
+writeup/*.out
+sde/*.log
+control/*.log
+backtest/*.log
+backtest/cache/

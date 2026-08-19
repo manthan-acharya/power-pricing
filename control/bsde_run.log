@@ -1,0 +1,44 @@
+terminal salvage 36.5 $/MWh
+iter     0  terminal loss 387.84961
+iter   200  terminal loss 0.34252
+iter   400  terminal loss 0.29481
+iter   600  terminal loss 0.20830
+iter   800  terminal loss 0.18643
+iter  1000  terminal loss 0.20713
+iter  1200  terminal loss 0.18595
+iter  1400  terminal loss 0.21277
+iter  1600  terminal loss 0.16210
+iter  1800  terminal loss 0.16982
+iter  2000  terminal loss 0.18416
+iter  2200  terminal loss 0.13344
+iter  2400  terminal loss 0.19717
+iter  2600  terminal loss 0.12054
+iter  2800  terminal loss 0.10892
+iter  3000  terminal loss 0.09974
+iter  3200  terminal loss 0.09601
+iter  3400  terminal loss 0.08084
+iter  3600  terminal loss 0.07040
+iter  3800  terminal loss 0.06509
+iter  4000  terminal loss 0.04951
+iter  4200  terminal loss 0.05324
+iter  4400  terminal loss 0.05466
+iter  4600  terminal loss 0.03915
+iter  4800  terminal loss 0.04001
+iter  5000  terminal loss 0.04058
+iter  5200  terminal loss 0.03397
+iter  5400  terminal loss 0.02880
+iter  5600  terminal loss 0.02726
+iter  5800  terminal loss 0.02206
+iter  6000  terminal loss 0.02097
+iter  6200  terminal loss 0.02238
+iter  6400  terminal loss 0.01679
+iter  6600  terminal loss 0.01793
+iter  6800  terminal loss 0.02125
+iter  7000  terminal loss 0.02035
+iter  7200  terminal loss 0.02041
+iter  7400  terminal loss 0.02034
+iter  7600  terminal loss 0.01533
+iter  7800  terminal loss 0.01693
+iter  7999  terminal loss 0.01388
+policy fractions: charge 0.076  discharge 0.169  idle 0.755
+mean SOC range used: 66.0 MWh of 100

@@ -1,0 +1,16 @@
+node,criterion,statistic,threshold_lo,threshold_hi,mean,std,min,max,pass_frac,min_margin
+NP15,a_mean,mean offset,,0.5,0.2608,0.0169,0.2038,0.311,1.0,0.378
+SP15,a_mean,mean offset,,0.5,0.362,0.0191,0.2872,0.4356,1.0,0.1287
+ZP26,a_mean,mean offset,,0.5,0.3182,0.019,0.25,0.3832,1.0,0.2336
+NP15,a_std,std ratio,0.7,1.4,1.0617,0.0092,1.033,1.0878,1.0,0.223
+SP15,a_std,std ratio,0.7,1.4,1.1931,0.011,1.1631,1.2199,1.0,0.1286
+ZP26,a_std,std ratio,0.7,1.4,1.2081,0.011,1.1733,1.2357,1.0,0.1174
+NP15,a_neg,neg-price freq ratio,0.5,2.0,0.7753,0.033,0.6919,0.8686,1.0,0.3838
+SP15,a_neg,neg-price freq ratio,0.5,2.0,0.5967,0.018,0.5342,0.6644,1.0,0.0683
+ZP26,a_neg,neg-price freq ratio,0.5,2.0,0.6196,0.0176,0.5659,0.679,1.0,0.1319
+NP15,b_spike,spike rate ratio,0.5,2.0,0.8954,0.0562,0.7486,1.0371,1.0,0.4814
+SP15,b_spike,spike rate ratio,0.5,2.0,1.4731,0.0493,1.315,1.6075,1.0,0.1963
+ZP26,b_spike,spike rate ratio,0.5,2.0,1.1289,0.0391,1.0076,1.2181,1.0,0.391
+NP15,c_halflife,half-life ratio,0.5,2.0,0.5382,0.0339,0.4423,0.6406,0.875,-0.1153
+SP15,c_halflife,half-life ratio,0.5,2.0,0.535,0.0396,0.4582,0.6501,0.79,-0.0836
+ZP26,c_halflife,half-life ratio,0.5,2.0,0.8205,0.0648,0.6852,0.9723,1.0,0.3704

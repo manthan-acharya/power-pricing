@@ -1,0 +1,12 @@
+quarter,strategy,comparator,comparator_is_best_simple,edge_pp,ci_lo,ci_hi,months_positive,edge_Apr,edge_May,edge_Jun
+development,deep_bsde,fixed_schedule,False,-3.92,-6.144,-1.861,0,-4.637,-1.758,-5.598
+development,deep_bsde,mpc_yesterday,False,-2.331,-7.66,2.809,0,-4.5,-0.421,-2.145
+development,deep_bsde,mpc_weekly,False,-2.401,-7.937,3.136,1,-9.225,-0.069,2.361
+development,deep_bsde,day_ahead_yesterday,True,-9.567,-14.216,-4.686,0,-10.93,-7.623,-10.295
+development,deep_bsde,day_ahead_weekly,False,-9.36,-12.72,-6.098,0,-7.777,-8.456,-12.106
+development,grid_dp,fixed_schedule,False,3.694,-1.179,8.544,3,5.629,3.701,1.584
+development,grid_dp,mpc_yesterday,False,5.283,3.474,7.093,3,5.766,5.037,5.037
+development,grid_dp,mpc_weekly,False,5.213,3.034,7.745,3,1.041,5.389,9.543
+development,grid_dp,day_ahead_yesterday,True,-1.953,-6.931,3.089,0,-0.664,-2.165,-3.112
+development,grid_dp,day_ahead_weekly,False,-1.746,-7.479,3.985,1,2.489,-2.997,-4.923
+development,grid_dp,deep_bsde,False,7.614,2.948,12.354,3,10.266,5.459,7.182

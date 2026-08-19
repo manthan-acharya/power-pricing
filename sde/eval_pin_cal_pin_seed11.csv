@@ -1,0 +1,4 @@
+node,block_len,mean_PIT,PIT_ci_lo,PIT_ci_hi,bias_rejects_at_05,linear_contrast,squared_contrast,frac_below_ensemble,below_ci_lo,below_ci_hi,frac_above_ensemble,above_ci_lo,above_ci_hi,expected_tail_frac,tail_rejects_at_05
+NP15,58,0.3886,0.3179,0.4646,True,-101.0043,1.8024,0.0275,0.0111,0.0461,0.0089,0.0,0.0246,0.0196,False
+SP15,45,0.4012,0.3386,0.4655,True,-89.6002,9.6091,0.0186,0.0082,0.0305,0.0097,0.0007,0.0223,0.0196,False
+ZP26,44,0.3821,0.3268,0.4392,True,-106.8886,6.0675,0.0186,0.0074,0.0312,0.0037,0.0,0.0112,0.0196,False
